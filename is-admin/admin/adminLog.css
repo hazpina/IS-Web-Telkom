@@ -1,0 +1,53 @@
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url(/ISweb/Gambar/telkombg.jpg);
+  width: 100%
+}
+ 
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #e80914;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+ 
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+ 
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+ 
+
+ 
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.footer{
+    right: 0;
+    color: #000000;
+    position: absolute;
+    bottom: 0;
+}
+.footer p{
+  bottom: 0;
+}
+
